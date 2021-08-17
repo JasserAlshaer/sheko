@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".addorEditMangeItems">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ItemImagePreview3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/items"
+            app:civ_border_width="2dp"
+            android:onClick="SelectImageItem"
+            android:layout_gravity="center_horizontal"
+            app:civ_border_color="#FF000000"/>
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/uploadProfileImage3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#130400"
+            android:text="Item Image"
+            android:layout_gravity="center"
+            app:bootstrapSize="xl"
+            app:buttonMode="regular"
+            app:roundedCorners="true"
+            app:showOutline="false"
+            android:textStyle="bold|italic"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="5dp"
+            android:text=" Name :"
+            android:textStyle="bold"
+            android:textSize="9pt"
+            android:fontFamily="@font/text3"
+            android:textColor="#130400" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/itemsName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            android:textColor="#130400"
+            app:bootstrapBrand="info"
+            app:bootstrapSize="xl"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description :"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="9pt"
+            android:textStyle="bold"
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"/>
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/ItemsDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            android:textColor="#130400"
+            app:bootstrapBrand="info"
+            app:bootstrapSize="xl"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price :"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="9pt"
+            android:textStyle="bold"
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"/>
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/ItemsPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="numberDecimal"
+            android:textColor="#130400"
+            app:bootstrapBrand="info"
+            app:bootstrapSize="xl"
+            />
+
+    </LinearLayout>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/continueRegistrationButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#130400"
+        android:text="ADD Items"
+        android:textStyle="bold|italic"
+        app:bootstrapSize="xl"
+        app:buttonMode="regular"
+        app:roundedCorners="true"
+        app:showOutline="false" />
+</LinearLayout>

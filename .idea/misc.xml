@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/drawable/more_24.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/drawable/roundedtext.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout-normal/activity_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout-small/activity_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_accept_orders.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_add_new_resturants.xml" value="0.15422885572139303" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_add_or_edit_employee_iinfo.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_add_special_offer.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_addor_edit_mange_items.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_admin_control_panel.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_assign_orderto_delivery.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_assignd_order_list.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_check_out_order.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_create_account.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_delivery_man_screen.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_determine_user_location.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_emolyee_logins.xml" value="0.18" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_finish_order.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_latest_order.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_latest_order17.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_main_user_app_screen.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_manage_employee.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_manage_items.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_need_support.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_order_details_list_design.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_order_raiting.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_orders_notes.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_resturants_items_and_details.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_set_user_location.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_splash.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_tracking_order_directions.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_tracking_order_screen.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_tracking_order_status.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/activity_tracking_orders_directions.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/admin_panel_drawer_meun.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/assignorderemployee.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/assignordertodelivery.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/deal_with_orders_actionbar.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/employeelist.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/main_cction_bar.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/main_nav_drawer3.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/main_tool_bar_for_admin.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/main_user_screen_drawer.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/mange_employee_action_bar.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/mange_employee_drawer.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/mange_item_drawer.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/mange_items_action_bar.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/orderitemlistdesign.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/orderitemsdetails.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/orderlistviewdesign.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/orders.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/resturantsitems.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/roundedcategorylisttext.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/seclectitemsfromlist.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/seeitemsandcheckout.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/Shikshak/app/src/main/res/layout/user_screen_action_bar.xml" value="0.18645833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".deliveryManScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/mainScreenImage"
+            android:layout_width="140dp"
+            android:layout_margin="20dp"
+            android:layout_height="140dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"
+            android:layout_gravity="center"
+            android:src="@drawable/delivery"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:backgroundTint="#ff6827"
+            android:background="#ff6827"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/assignedOrderButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#130400"
+                android:baselineAligned="false"
+                android:layout_margin="20sp"
+                android:fontFamily="@font/mmm"
+                android:onClick="getAssignedOrders"
+                android:text="See Assigned Order"
+                android:textStyle="bold"
+                app:bootstrapSize="lg"
+                app:buttonMode="regular"
+                app:roundedCorners="true"
+                app:showOutline="false" />
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/completedOrdersButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#130400"
+                android:baselineAligned="false"
+                android:fontFamily="@font/mmm"
+                android:text="Completed Orders"
+                android:textStyle="bold"
+                app:bootstrapSize="lg"
+                app:buttonMode="regular"
+                app:roundedCorners="true"
+                android:layout_margin="20sp"
+                app:showOutline="false" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

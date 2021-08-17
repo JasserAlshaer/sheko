@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="1dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+        <TextView
+            android:onClick="LoginAsAdminOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="0dp"
+            android:padding="3dp"
+            android:text="Login As Resturants Admin"
+            android:textColor="@color/black"
+            android:textSize="10pt"
+            android:fontFamily="@font/mmm"
+            android:layout_marginLeft="6dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:backgroundTint="@color/purple_200"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:onClick="LoginAsDeliveryManOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="0dp"
+            android:padding="3dp"
+            android:text="Login As Delivery Man"
+            android:textColor="@color/black"
+            android:textSize="10pt"
+            android:fontFamily="@font/mmm"
+            android:layout_marginLeft="6dp" />
+    </LinearLayout>
+</LinearLayout>

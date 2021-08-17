@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/menuMoreIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:onClick="onMenuClicked"
+        android:src="@drawable/ic_baseline_person_add_24"/>
+    <TextView
+        android:id="@+id/mainActionBarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Mange Employee"
+        android:fontFamily="@font/mnmn"
+        android:textSize="26sp"
+        android:background="@color/white"
+        android:textColor="#ff6827"
+        android:textStyle="bold" />
+</LinearLayout>

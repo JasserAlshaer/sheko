@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="1"
+        android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/itemsNameListLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Items"
+            android:textSize="9pt"
+            android:layout_columnWeight="1"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/itemsquantityListLabel8585"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textSize="9pt"
+            android:layout_columnWeight="1"
+            android:textColor="@color/black"/>
+    </GridLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:backgroundTint="#ff6827"
+        android:background="#ff6827"/>
+</LinearLayout>

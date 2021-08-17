@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1020985336109",
+    "project_id": "shik-shak",
+    "storage_bucket": "shik-shak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020985336109:android:213b924d41bb8b275873a4",
+        "android_client_info": {
+          "package_name": "com.example.shikshak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020985336109-9ug7j4qsfc3tqrb36geofhkb1ggq7a4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shikshak",
+            "certificate_hash": "0b794e4c6911fb7751dd48be7583ca09f4cf32e3"
+          }
+        },
+        {
+          "client_id": "1020985336109-iafu0rv8ctttbi88m92s0276il0n8lng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu5nzmxwppSv1FrBn8bRcxd_qZfR4CoOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020985336109-iafu0rv8ctttbi88m92s0276il0n8lng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

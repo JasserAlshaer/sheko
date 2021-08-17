@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".FinishOrder">
+    <include
+        layout="@layout/orders"/>
+    <TextView
+        android:id="@+id/totalPriceOrderfinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Price :"
+        android:textColor="@color/black"
+        android:textSize="9pt"/>
+    <TextView
+        android:id="@+id/userpaymentLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" The User Pay  :"
+        android:textColor="@color/black"
+        android:textSize="9pt"/>
+    <EditText
+        android:id="@+id/userPaymentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:id="@+id/notesTextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Notes :"
+        android:textColor="@color/black"
+        android:textSize="9pt"/>
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/notesTextArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        app:bootstrapBrand="info"
+        android:textColor="@color/black"
+        app:bootstrapSize="xl"/>
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/finishOrderbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish Order"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        app:bootstrapSize="xl"
+        app:buttonMode="regular"
+        app:roundedCorners="true"
+        app:showOutline="false"
+        />
+
+
+</LinearLayout>

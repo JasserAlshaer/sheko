@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawerMainScreenForUser"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dp"
+    tools:context=".mainUserAppScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            layout="@layout/user_screen_action_bar"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#fff">
+
+            <!-- Horizontal List Category-->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/categoryTextLabel1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="9pt"
+                        android:padding="3dp"
+                        android:text="Tourist Restaurants"
+                        android:layout_margin="6dp"
+                        android:onClick="FillterCategoryOnApp"
+                        android:backgroundTint="#ff6827"
+                        android:textColor="@color/white"
+                        android:background="@drawable/roundedtext"/>
+                    <TextView
+                        android:id="@+id/categoryTextLabel2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="9pt"
+                        android:padding="3dp"
+                        android:text="Popular Resturants"
+                        android:onClick="FillterCategoryOnApp"
+                        android:layout_margin="6dp"
+                        android:backgroundTint="#ff6827"
+                        android:textColor="@color/white"
+                        android:background="@drawable/roundedtext"/>
+                    <TextView
+                        android:id="@+id/categoryTextLabel3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="9pt"
+                        android:padding="3dp"
+                        android:text="Dessert Restaurants"
+                        android:onClick="FillterCategoryOnApp"
+                        android:layout_margin="6dp"
+                        android:backgroundTint="#ff6827"
+                        android:textColor="@color/white"
+                        android:background="@drawable/roundedtext"/>
+                    <TextView
+                        android:id="@+id/categoryTextLabel4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="9pt"
+                        android:padding="3dp"
+                        android:text="Fast food Restaurants"
+                        android:onClick="FillterCategoryOnApp"
+                        android:layout_margin="6dp"
+                        android:backgroundTint="#ff6827"
+                        android:textColor="@color/white"
+                        android:background="@drawable/roundedtext"/>
+                    <TextView
+                        android:id="@+id/categoryTextLabel5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="9pt"
+                        android:padding="3dp"
+                        android:text="All Restaurants"
+                        android:onClick="FillterCategoryOnApp"
+                        android:layout_margin="6dp"
+                        android:backgroundTint="#ff6827"
+                        android:textColor="@color/white"
+                        android:background="@drawable/roundedtext"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:backgroundTint="#ff6827"
+                android:background="#ff6827"/>
+            <!-- Restaurants  List Category-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <ListView
+                    android:id="@+id/resturntsListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:layout_gravity="start">
+
+        <include layout="@layout/main_user_screen_drawer" />
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

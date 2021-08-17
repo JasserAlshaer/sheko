@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shikshak">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity
+            android:name=".trackingOrderStatus"
+            android:exported="true" />
+        <activity
+            android:name=".determineUserLocation"
+            android:exported="true" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".CheckOutOrder"
+            android:exported="true" />
+        <activity
+            android:name=".resturantsItemsAndDetails"
+            android:exported="true" />
+        <activity
+            android:name=".mainUserAppScreen"
+            android:exported="true" />
+        <activity
+            android:name=".FinishOrder"
+            android:exported="true" />
+        <activity
+            android:name=".assigndOrderList"
+            android:exported="true" />
+        <activity
+            android:name=".deliveryManScreen"
+            android:exported="true" />
+        <activity
+            android:name=".assignOrdertoDelivery"
+            android:exported="true" />
+        <activity
+            android:name=".latestOrder"
+            android:exported="true" />
+        <activity
+            android:name=".manageItems"
+            android:exported="true" />
+        <activity
+            android:name=".addorEditMangeItems"
+            android:exported="true" />
+        <activity
+            android:name=".addOrEditEmployeeIinfo"
+            android:exported="true" />
+        <activity
+            android:name=".manageEmployee"
+            android:exported="true" />
+        <activity
+            android:name=".addSpecialOffer"
+            android:exported="true" />
+        <activity
+            android:name=".admin_Control_Panel"
+            android:exported="true" />
+        <activity
+            android:name=".emolyeeLogins"
+            android:exported="true" />
+        <activity
+            android:name=".addNewResturants"
+            android:exported="true" />
+        <activity
+            android:name=".create_account"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

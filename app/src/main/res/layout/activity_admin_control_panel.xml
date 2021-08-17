@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawerMainScreenForAdmin"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".admin_Control_Panel">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <include
+            layout="@layout/main_tool_bar_for_admin"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#fff">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="140dp"
+                android:layout_margin="20dp"
+                android:layout_height="140dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"
+                android:layout_gravity="center"
+                android:src="@drawable/restlogo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:backgroundTint="#ff6827"
+                android:background="#ff6827"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                    <com.beardedhen.androidbootstrap.BootstrapButton
+                        android:id="@+id/mangeItemsButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="#130400"
+                        android:baselineAligned="false"
+                        android:layout_margin="20sp"
+                        android:fontFamily="@font/mmm"
+                        android:text="Mange Employee"
+                        android:textStyle="bold"
+                        app:bootstrapSize="lg"
+                        app:buttonMode="regular"
+                        app:roundedCorners="true"
+                        app:showOutline="false"
+                        android:onClick="onManageEmployeeButtonclicked"/>
+                    <com.beardedhen.androidbootstrap.BootstrapButton
+                        android:id="@+id/mangeEmployeeButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="#130400"
+                        android:baselineAligned="false"
+                        android:fontFamily="@font/mmm"
+                        android:text="Mange Items"
+                        android:textStyle="bold"
+                        app:bootstrapSize="lg"
+                        app:buttonMode="regular"
+                        app:roundedCorners="true"
+                        android:layout_margin="20sp"
+                        app:showOutline="false"
+                        android:onClick="onManageItemsButtonClicked"/>
+
+                <com.beardedhen.androidbootstrap.BootstrapButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="#130400"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/mmm"
+                    android:layout_margin="20sp"
+                    android:text="Latest Orders"
+                    android:textStyle="bold"
+                    app:bootstrapSize="xl"
+                    app:buttonMode="regular"
+                    app:roundedCorners="true"
+                    app:showOutline="false"
+                    android:onClick="onLatestOrderButtonClicked"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:layout_gravity="start">
+
+        <include layout="@layout/admin_panel_drawer_meun" />
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

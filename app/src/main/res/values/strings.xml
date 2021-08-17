@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Shik shak</string>
+    <string-array name="restaurantsCategory">
+        <item>Popular restaurant</item>
+        <item>Tourist restaurants</item>
+        <item>Fast food restaurants</item>
+        <item>Dessert restaurants</item>
+    </string-array>
+    <string-array name="problemTypes">
+        <item>Quality Problems</item>
+        <item>Communication Problems</item>
+        <item>Technical Problem</item>
+
+    </string-array>
+    <string-array name="options">
+        <item>Edit Information</item>
+        <item>Call Directly</item>
+        <item>Delete</item>
+
+    </string-array>
+
+    <string-array name="pendingorderoption">
+        <item>Reject This Order</item>
+    </string-array>
+    <string-array name="itemsOption">
+        <item>Edit This Item</item>
+        <item>Delete This Item</item>
+
+    </string-array>
+    <string name="title_activity_tracking_orders_directions">trackingOrdersDirections</string>
+    <string name="title_activity_set_user_location">SetUserLocation</string>
+    <string name="title_activity_tracking_order_screen">TrackingOrderScreen</string>
+</resources>

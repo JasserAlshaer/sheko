@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_main_menu_activity"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".emolyeeLogins">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image_employee"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/employee"
+            app:civ_border_width="1dp"
+            android:layout_gravity="center_horizontal"
+            app:civ_border_color="#FF000000"/>
+        <TextView
+            android:id="@+id/emailTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email :"
+            android:fontFamily="@font/text3"
+            android:textSize="6pt"
+            android:textStyle="bold"
+            android:textColor="#130400"/>
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/emailTextField2"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mnmn"
+            android:inputType="text"
+            android:textColor="#130400"
+            android:textSize="6pt"
+            app:bootstrapBrand="info"
+            app:bootstrapSize="md" />
+        <TextView
+            android:id="@+id/passwordTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password :"
+            android:textColor="#130400"
+            android:fontFamily="@font/text3"
+            android:textSize="6pt"
+            android:textStyle="bold"/>
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/passwordTextField2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:fontFamily="@font/mnmn"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColor="#130400"
+            android:textSize="10pt"
+            app:bootstrapBrand="info"
+
+            app:bootstrapSize="md" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="40dp">
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#130400"
+                android:baselineAligned="false"
+                android:fontFamily="@font/mmm"
+                android:text="Login"
+                android:onClick="OnEmployeeLoginButtonClicked"
+                android:textStyle="bold"
+                app:bootstrapSize="xl"
+                app:buttonMode="regular"
+                app:roundedCorners="true"
+                app:showOutline="false" />
+
+        </LinearLayout>
+    </LinearLayout>
